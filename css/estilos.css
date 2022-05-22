@@ -1,3 +1,43 @@
-body{
-    text-align: center;
+#fondo {
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+#teclado {
+    border: solid 1px blue;
+    background-color: grey;
+    margin: auto 40%;
+    width: 290px;
+    height: 130px;
+    padding: 5px;
+    top: 100px;
+    position: relative;
+    position: absolute;
+    
+}
+
+.fila {
+    margin: auto 1px;
+    margin-top: 2px;
+
+}
+
+.fila2 {
+    margin: auto 5.8%;
+    margin-top: 5px;
+    height: 30px;
+
+}
+
+.fila3 {
+    margin: auto 1%;
+    height: 30px;
+}
+
+
+.BTN {
+ margin: auto 1px;
+ border-radius: 4px;
+ border-style: hidden;
+ font-size: 20px;
 }
