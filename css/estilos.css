@@ -77,3 +77,14 @@ background: linear-gradient(90deg, rgba(58,20,65,1) 38%, rgba(138,109,135,1) 100
     border-style: hidden;
     font-size: 20px;
 }
+
+#buscador{
+    margin: auto 40%;
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+    top: 25px;
+    position: relative;
+    position: absolute;
+    
+}

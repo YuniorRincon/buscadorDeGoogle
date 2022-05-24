@@ -1,27 +1,24 @@
 var oprimir = document.querySelector(".BTN");
 var seach = document.getElementById("buscador");
-
+var space = document.getElementById("espacio");
 
 
 var op = oprimir;
 op = document.addEventListener("click",EscribirLetras);
-var sea = seach;
-sea = document.addEventListener("se", busca);
 var letra;
+
 
 function EscribirLetras(ev)
 {
+    var contador = ev.srcElement.accessKey
 
-    if(ev.srcElement.accessKey == ev.srcElement.accessKey)
+    if( contador)
     {
-        letra = ev.srcElement.accessKey ;
-        alert(`soy la letra ${letra}`);
+        letra = contador;
     }
-
-    console.log(ev)   
-}
-
-function busca(evv)
-{
-    console.log(evv);
+    if(space == contador)
+    {
+        letra = " ";
+    }
+    seach.value += letra;
 }
