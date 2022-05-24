@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador de Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     
     <div id="fondo">
+        <input id="buscador" type="search" value="buscar">
         <div id="teclado">
             <div class="fila">
     
@@ -28,37 +30,41 @@
         
             <div class="fila2">
                 
-                <button class="BTN">a</button>
-                <button class="BTN">s</button>
-                <button class="BTN">d</button>
-                <button class="BTN">f</button>
-                <button class="BTN">g</button>
-                <button class="BTN">h</button>
-                <button class="BTN">j</button>
-                <button class="BTN">k</button>
-                <button class="BTN">l</button>
+                <button class="BTN" accesskey="a">a</button>
+                <button class="BTN" accesskey="s">s</button>
+                <button class="BTN" accesskey="d">d</button>
+                <button class="BTN" accesskey="f">f</button>
+                <button class="BTN" accesskey="g">g</button>
+                <button class="BTN" accesskey="h">h</button>
+                <button class="BTN" accesskey="j">j</button>
+                <button class="BTN" accesskey="k">k</button>
+                <button class="BTN" accesskey="l">l</button>
         
         
             </div>
         
             <div class="fila3">
         
-                <BUtton class="BTN" accesskey="m">M</BUtton>
-                <BUtton class="BTN">z</BUtton>
-                <BUtton class="BTN">x</BUtton>
-                <BUtton class="BTN">c</BUtton>
-                <BUtton class="BTN">v</BUtton>
-                <BUtton class="BTN">b</BUtton>
-                <BUtton class="BTN">n</BUtton>
-                <BUtton class="BTN">m</BUtton>
-                <BUtton class="BTN">B</BUtton>
+                <BUtton class="BTN" accesskey=""><i class="fa-solid fa-arrow-up"></i></BUtton>
+                <BUtton class="BTN" accesskey="z">z</BUtton>
+                <BUtton class="BTN" accesskey="x">x</BUtton>
+                <BUtton class="BTN" accesskey="c">c</BUtton>
+                <BUtton class="BTN" accesskey="v">v</BUtton>
+                <BUtton class="BTN" accesskey="b">b</BUtton>
+                <BUtton class="BTN" accesskey="n">n</BUtton>
+                <BUtton class="BTN" accesskey="m">m</BUtton>
+                <BUtton class="BTN"><i class="fa-solid fa-delete-left"></i></BUtton>
         
                 
             </div>
         
             <div class="fila">
-        
-                <button class="BTN"> TECLA ESPACIADORA </button>
+                 
+                <button id="num">?123</button>
+                <button id="coma">,</button>
+                <button id="espacio">&nbsp;</button>
+                <button id="punto">.</button>
+                <button id="buscadorT" accesskey="bus"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         </div>
     </div>
